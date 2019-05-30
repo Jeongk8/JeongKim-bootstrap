@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <nav class = "navbar navbar-dark navbar-expand-sm fixed-top">
+    <nav class = "navbar navbar-dark navbar-expand-sm sticky-top">
 
         <div class ="container">
             <button class="navbar-toggler"type="button" data-toggle="collapse" data-target="#Navbar">
@@ -46,6 +46,7 @@
         
 
     </nav>
+
     <header class="jumbotron">
         <div class ="container">
             <div class = "row row-header">
@@ -53,9 +54,15 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm">
+                <div class="col-12 col-sm-3 align-self-center">
                     <img src="img/logo.png" class="img-fluid">
                 </div>
+
+                <div class="col-12 col-sm-3 align-self-center">
+                    <a href="#reserve"><button type="button" class="btn btn-warning btn-sm btn-block">Reserve Table</button></a>
+                </div>
+
+
             </div>
         </div>
     </header>
@@ -141,7 +148,7 @@
         </div>
 
 
-        <div class="row row-content align-items-center">
+        <div id = "reserve" class="row row-content align-items-center">
             <div class ="col-12 col-sm-8 offset-sm-2">
                 <div class="card">
                     <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
